@@ -371,3 +371,7 @@
 * [날짜 선택]
 
   * jquery datepicker 제거 -> input태그의 date타입을 사용
+
+* [홈]
+
+  * 디자인 수정 완료  
