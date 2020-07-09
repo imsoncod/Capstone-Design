@@ -12,6 +12,116 @@
 
 <br>
 
+## 개요
+
+대한민국 국민인 남성은 국방의 의무 중 하나인 병역의무를 수행하게된다. 즉, 군대를 다녀와야만 한다. 
+
+옛날부터 욕설, 구타, 가혹행위 등 부조리가 가득했던 군대의 모습은 점차 사라지게 되었고 
+최근에는 '선진병영'문화가 스며들면서 군인들의 자유를 보장해주고 존중해줄 수 있는 정책
+들이 시행되기 시작했다. 그 중 하나가 '군 장병 스마트폰 사용' 정책이다. 
+
+19년 4월, 이젠 간부뿐만 아니라 병사들도 부대내에서 스마트폰을 사용할 수 있게되었다. 
+이를 계기로 개발진들의 군경험과 현역 장병들의 요구사항을 바탕으로 군생활에 유익함을 가져다줄 수 있는 App을 기획하였다. 
+기존에 전역일계산기, 휴가계산기 등 유사 App들이 존재하지만 스마트폰 사용 정책 도입으로 필요성이 떨어지거나 기능들이 분산되어 있어 
+이를 해결하는 방향으로 필요성이 있는 기능들만 통합시키는 방식으로 시스템을 설계할 계획이다.
+
+<br>
+
+## 시스템 구성도
+
+  ![image](https://user-images.githubusercontent.com/48934537/87004479-71971b80-c1f8-11ea-8858-923be44a6aad.png)
+
+<br>
+
+## 서비스 소개
+
+* 카카오 로그인 - 카카오 계정으로 서비스를 이용할 수 있습니다.
+
+  ![image](https://user-images.githubusercontent.com/48934537/87006075-07cc4100-c1fb-11ea-8960-885fc7804fdd.png)
+  
+  <br>
+
+* 내 정보 등록 - 입대/전역 날짜, 복무지를 등록할 수 있습니다.
+
+  ![image](https://user-images.githubusercontent.com/48934537/87006007-ebc89f80-c1fa-11ea-922a-b40a7e7a791a.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87006209-4235de00-c1fb-11ea-8211-741642c3f3be.png)
+  
+  <br>
+
+* 홈 - D-day, 날씨, 영어단어, 주간 핫 게시물, 국방부 소식을 확인할 수 있습니다.
+
+  ![image](https://user-images.githubusercontent.com/48934537/87006400-9214a500-c1fb-11ea-8858-8869d1835c9b.png)
+  
+  <br>
+
+* 전역일 계산 - 홈에서 D-day부분을 눌러 전역일 계산 정보를 세부적으로 확인할 수 있습니다.
+
+  ![image](https://user-images.githubusercontent.com/48934537/87006794-3ac30480-c1fc-11ea-807a-d473c89ecb0e.png)
+
+  <br>
+  
+* 운명 - 내일의 운세와 명언을 확인할 수 있습니다.
+
+  ![image](https://user-images.githubusercontent.com/48934537/87007046-942b3380-c1fc-11ea-93f6-6cb92e112fca.png)
+
+  <br>
+  
+* 캘린더 - 이벤트와 다이어리를 관리하고 주간 날씨를 확인할 수 있습니다
+
+  ![image](https://user-images.githubusercontent.com/48934537/87007351-19aee380-c1fd-11ea-9cfb-2a134de2978b.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87007672-980b8580-c1fd-11ea-99cd-1a854ee8cfc2.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87007445-45ca6480-c1fd-11ea-8838-e7a24ad41a19.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87007760-b8d3db00-c1fd-11ea-86f8-b7f31e6ddc76.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87007945-f6386880-c1fd-11ea-9567-99c79d0b038d.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87007986-04868480-c1fe-11ea-9a5f-68c145657f5d.png)
+
+  <br>
+  
+* 체력측정 - 종목별 타이머를 사용할 수 있고 등급컷을 확인할 수 있습니다.
+
+  ![image](https://user-images.githubusercontent.com/48934537/87008161-4d3e3d80-c1fe-11ea-9f04-e3d8fa041172.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87008226-63e49480-c1fe-11ea-905f-f8e78e116abe.png)
+  
+  <br>
+  
+* 커뮤니티 - 여러 장르의 커뮤니티에서 게시글을 작성하여 소통할 수 있습니다.
+
+  ![image](https://user-images.githubusercontent.com/48934537/87008612-fd13ab00-c1fe-11ea-8513-7ea9089a8ed2.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87008955-71e6e500-c1ff-11ea-98f3-9e5756d36e5c.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009116-b1153600-c1ff-11ea-8bb1-a062299ccff8.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009164-c4c09c80-c1ff-11ea-9136-43d6de9e3693.png)
+  
+  <br>
+  
+* 설정 - 내 정보 수정, 작성글 확인, 공지사항/업데이트 확인, 소개 확인, 의견 보내기를 이용할 수 있습니다.
+
+  ![image](https://user-images.githubusercontent.com/48934537/87009401-16692700-c200-11ea-80b9-a52f68689a4b.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009471-2bde5100-c200-11ea-9845-7de1fbccd8b6.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009500-34cf2280-c200-11ea-8a6d-d900ef4e620e.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009553-431d3e80-c200-11ea-982f-f48451bd8d0c.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009678-7b248180-c200-11ea-821f-a68fe8c02eb9.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009592-5203f100-c200-11ea-99ba-af1ad2cab292.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009741-92636f00-c200-11ea-94d8-a856bd0aac9c.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009612-59c39580-c200-11ea-98da-aa1c64175294.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009635-66e08480-c200-11ea-9caa-46677d2bac6c.png)
+  ![image](https://user-images.githubusercontent.com/48934537/87009880-c2ab0d80-c200-11ea-9ed8-a1411e30d78f.png)
+
+<br>
+
+## 기술 스택
+
+Framework : Spring Boot MVC
+
+Front-end : Html, Javascript, Css, jQuery, Ajax
+
+Back-end : Java, Xml, Ubuntu, Apache Tomcat
+
+DB : MySQL
+
+기타 : Github, Crawling, Kakao API, FullCalendar
+
+<br>
+
 ## 프로젝트 진행 과정 기록
 
 ### 📅 2020-03-30 ~ 2020-04-10
@@ -419,5 +529,3 @@
 * [서버]
   
   * cafe24 가상 리눅스 서버 구축 및 테스팅 완료
-  
-  * DB서버 구매 예정
